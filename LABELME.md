@@ -1,0 +1,6 @@
+
+
+1. OPEN DIR
+2. File -> CHANGE OUTPUT DIR
+3. File -> AUTOSAVE
+
