@@ -19,3 +19,5 @@ for imgnum in range(number_images):
         break
 cap.release()
 cv2.destroyAllWindows()
+
+# run labelme
