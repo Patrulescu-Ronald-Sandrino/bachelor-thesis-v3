@@ -18,3 +18,4 @@ To install conda's shell functions for easier access, first activate, then:
 conda init
 
 eval "$(/home/kamui/anaconda3/bin/conda shell.bash hook)" && jupyter notebook
+eval "$(/home/kamui/anaconda3/bin/conda shell.bash hook)" && jupyter lab
