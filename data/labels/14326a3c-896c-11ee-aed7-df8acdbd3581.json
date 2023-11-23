@@ -18,6 +18,23 @@
       "description": "",
       "shape_type": "rectangle",
       "flags": {}
+    },
+    {
+      "label": "hand",
+      "points": [
+        [
+          440.68965517241384,
+          403.7931034482758
+        ],
+        [
+          547.9201334816463,
+          479.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
     }
   ],
   "imagePath": "../images/14326a3c-896c-11ee-aed7-df8acdbd3581.jpg",
