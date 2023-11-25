@@ -6,7 +6,6 @@ import cv2
 IMAGES_PATH = os.path.join('data', 'images')
 number_images = 90  #
 
-
 images_taken = 0
 auto_mode = False
 
@@ -20,7 +19,7 @@ while images_taken < number_images:
         images_taken_last_value = images_taken
         print(f'[auto_mode={auto_mode}] Collecting image {images_taken + 1}/{number_images}')
     ret, frame = cap.read()
-    img_name = os.path.join(IMAGES_PATH, f'{str(uuid.uuid1())}.jpg')
+    img_name = os.path.join(IMAGES_PATH, f'{(images_taken + 1):02d}_{str(uuid.uuid1())}.jpg')
     cv2.imshow('frame', frame)
 
     if auto_mode or (not auto_mode and pressed_key(' ')):
@@ -31,7 +30,6 @@ while images_taken < number_images:
         break
     elif pressed_key('a'):
         auto_mode = not auto_mode
-
 
 # for imgnum in range(number_images):
 #     print('Collecting image {}'.format(imgnum))
