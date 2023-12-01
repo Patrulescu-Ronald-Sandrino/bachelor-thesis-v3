@@ -1,0 +1,29 @@
+Epoch 1/10
+2023-11-25 22:13:39.956538: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:22: Filling up shuffle buffer (this may take a while): 13935 of 16141
+2023-11-25 22:13:41.183083: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
+2018/2018 [==============================] - 1265s 620ms/step - total_loss: 0.7208 - class_loss: 0.2693 - regress_loss: 0.5862 - val_total_loss: 0.3559 - val_class_loss: 0.0505 - val_regress_loss: 0.3307
+Epoch 2/10
+2018/2018 [==============================] - 1238s 610ms/step - total_loss: 0.2497 - class_loss: 0.1011 - regress_loss: 0.1991 - val_total_loss: 0.0230 - val_class_loss: 0.0177 - val_regress_loss: 0.0142
+Epoch 3/10
+2018/2018 [==============================] - 2417s 1s/step - total_loss: 0.1639 - class_loss: 0.0653 - regress_loss: 0.1313 - val_total_loss: 1.6105 - val_class_loss: 1.5891 - val_regress_loss: 0.8160
+Epoch 4/10
+2023-11-25 23:35:38.768392: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:22: Filling up shuffle buffer (this may take a while): 5477 of 16141
+2023-11-25 23:35:48.767266: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:22: Filling up shuffle buffer (this may take a while): 10954 of 16141
+2023-11-25 23:35:57.415702: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
+2018/2018 [==============================] - 1602s 779ms/step - total_loss: 0.1203 - class_loss: 0.0504 - regress_loss: 0.0951 - val_total_loss: 0.0086 - val_class_loss: 4.2354e-04 - val_regress_loss: 0.0084
+Epoch 5/10
+2023-11-26 00:02:20.407321: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:22: Filling up shuffle buffer (this may take a while): 15371 of 16141
+2023-11-26 00:02:21.032663: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
+2018/2018 [==============================] - 1332s 655ms/step - total_loss: 0.1017 - class_loss: 0.0418 - regress_loss: 0.0808 - val_total_loss: 2.5825 - val_class_loss: 1.8889 - val_regress_loss: 1.6381
+Epoch 6/10
+2018/2018 [==============================] - 1233s 606ms/step - total_loss: 0.0816 - class_loss: 0.0326 - regress_loss: 0.0653 - val_total_loss: 1.7652 - val_class_loss: 1.6247 - val_regress_loss: 0.9529
+Epoch 7/10
+2018/2018 [==============================] - 1186s 583ms/step - total_loss: 0.0624 - class_loss: 0.0253 - regress_loss: 0.0498 - val_total_loss: 0.0053 - val_class_loss: 1.9357e-05 - val_regress_loss: 0.0053
+Epoch 8/10
+2018/2018 [==============================] - 1195s 588ms/step - total_loss: 0.0526 - class_loss: 0.0212 - regress_loss: 0.0420 - val_total_loss: 0.0074 - val_class_loss: 1.4216e-05 - val_regress_loss: 0.0074
+Epoch 9/10
+2018/2018 [==============================] - 2734s 1s/step - total_loss: 0.0415 - class_loss: 0.0164 - regress_loss: 0.0333 - val_total_loss: 0.0055 - val_class_loss: 6.5793e-04 - val_regress_loss: 0.0052
+Epoch 10/10
+2023-11-26 02:10:21.421614: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:422] ShuffleDatasetV3:22: Filling up shuffle buffer (this may take a while): 5875 of 16141
+2023-11-26 02:10:38.582848: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:452] Shuffle buffer filled.
+2018/2018 [==============================] - 1249s 605ms/step - total_loss: 0.0306 - class_loss: 0.0109 - regress_loss: 0.0252 - val_total_loss: 0.3925 - val_class_loss: 0.4368 - val_regress_loss: 0.1741
